@@ -15,24 +15,6 @@ public class BeanTest {
         String salary = "20000";
 
         Emp emp = new Emp();
-//        try {
-////            BeanUtils.setProperty(emp,"name",name);
-////            BeanUtils.setProperty(emp,"age",age);
-////            BeanUtils.setProperty(emp,"salary",salary);
-//        } catch (IllegalAccessException e) {
-//            e.printStackTrace();
-//        } catch (InvocationTargetException e) {
-//            e.printStackTrace();
-//        }
-//        try {
-//            BeanUtils.setProperty(emp,"name",name);
-//            BeanUtils.setProperty(emp,"age",age);
-//            BeanUtils.setProperty(emp,"salary",salary);
-//        } catch (IllegalAccessException e) {
-//            e.printStackTrace();
-//        } catch (InvocationTargetException e) {
-//            e.printStackTrace();
-//        }
         System.out.println(emp.getInfo());
     }
 }

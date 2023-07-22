@@ -11,8 +11,8 @@ public class num206反转链表 {
         if(head == null || head.next ==null)
             return head;
         LinkNode temp;
-        LinkNode cur = head;
         LinkNode pre = null;
+        LinkNode cur = head;
         while (cur != null){
             temp = cur.next;
             cur.next = pre;

@@ -139,7 +139,13 @@ result.isEmpty();
 
 ### 比较器：
 
-比较器
+comparable 和 Comparator 的区别
+
+- `comparable` 接口实际上是出自`java.lang`包 它有一个 `compareTo(Object obj)`方法用来排序
+
+- `comparator`接口实际上是出自 java.util 包它有一个`compare(Object obj1, Object obj2)`方法用来排序
+
+  
 
 比较器是个很神奇的东西，它可以使得某些对象在排序的时候按照我们设计的比较规则进行排序，比如`TreeMap`，`TreeSet`等等，那现在来看看优先队列中的比较器。
 
